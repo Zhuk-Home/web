@@ -1,0 +1,168 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.content_footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    width: 1170px;
+    height: 100px;
+    color: #fff;
+}
+
+.footer p {
+    font-family: "Varela Round";
+    margin: 0px 50px 0px 0px;
+}
+
+.block_contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.telegram_button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    border-radius: 50%;
+    border: 5px solid #29B6F6;
+    background-color: #29B6F6;
+    -webkit-box-shadow: 0 0 10px #1c77a1, 0 0 20px #1c77a1;
+    box-shadow: 0 0 10px #1c77a1, 0 0 20px #1c77a1;
+    cursor: pointer;
+    margin: 0px 20px 0px 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.telegram_button:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    -webkit-box-shadow: 0 0 10px #29B6F6, 0 0 40px #29B6F6;
+    box-shadow: 0 0 10px #29B6F6, 0 0 40px #29B6F6;
+    border: 0px solid #29B6F6;
+    -webkit-animation: telegram_neon 1s ease infinite alternate;
+    animation: telegram_neon 1s ease infinite alternate;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.telegram_button:hover img {
+    width: 100%;
+}
+
+.telegram_button a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.telegram_button img {
+    width: 100%;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+@-webkit-keyframes telegram_neon {
+    0% {
+        -webkit-box-shadow: 0 0 10px #29B6F6, 0 0 40px #29B6F6;
+        box-shadow: 0 0 10px #29B6F6, 0 0 40px #29B6F6;
+    }
+    100% {
+        -webkit-box-shadow: 0 0 10px #29B6F6, 0 0 80px #29B6F6, 0 0 40px #29B6F6;
+        box-shadow: 0 0 10px #29B6F6, 0 0 80px #29B6F6, 0 0 40px #29B6F6;
+    }
+}
+
+@keyframes telegram_neon {
+    0% {
+        -webkit-box-shadow: 0 0 10px #29B6F6, 0 0 40px #29B6F6;
+        box-shadow: 0 0 10px #29B6F6, 0 0 40px #29B6F6;
+    }
+    100% {
+        -webkit-box-shadow: 0 0 10px #29B6F6, 0 0 80px #29B6F6, 0 0 40px #29B6F6;
+        box-shadow: 0 0 10px #29B6F6, 0 0 80px #29B6F6, 0 0 40px #29B6F6;
+    }
+}
+
+.viber_button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    border-radius: 50%;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 10px #b8b8b8, 0 0 20px #b8b8b8;
+    box-shadow: 0 0 10px #b8b8b8, 0 0 20px #b8b8b8;
+    cursor: pointer;
+    margin: 0px 20px 0px 20px;
+    border: 8px solid #fff;
+    box-sizing: border-box;
+}
+
+.viber_button:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    -webkit-box-shadow: 0 0 10px #b8b8b8, 0 0 40px #b8b8b8;
+    box-shadow: 0 0 10px #b8b8b8, 0 0 40px #b8b8b8;
+    -webkit-animation: viber_neon 1s ease infinite alternate;
+    animation: viber_neon 1s ease infinite alternate;
+    border: 4px solid #fff;
+    box-sizing: border-box;
+}
+
+.viber_button a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.viber_button img {
+    width: 80%;
+    transform: translate(4px, 7px);
+}
+
+@-webkit-keyframes viber_neon {
+    0% {
+        -webkit-box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff;
+        box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff;
+    }
+    100% {
+        -webkit-box-shadow: 0 0 10px #ffffff, 0 0 40px #fff, 0 0 80px #fff;
+        box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
+    }
+}
+
+@keyframes viber_neon {
+    0% {
+        -webkit-box-shadow: 0 0 10px #fff, 0 0 40px #fff;
+        box-shadow: 0 0 10px #fff, 0 0 40px #fff;
+    }
+    100% {
+        -webkit-box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
+        box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
+    }
+}

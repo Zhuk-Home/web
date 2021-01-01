@@ -1,0 +1,127 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Position</title>
+        <link href="CSS/Style3.css" rel="stylesheet" type="text/css">
+        <link rel="apple-touch-icon" sizes="57x57" href="image/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="image/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="image/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="image/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="image/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="image/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="image/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="image/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="image/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="image/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="image/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+        <link rel="manifest" href="image/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="image/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+
+    <body>
+    <body>
+        <div id="box">Welcome to the Web-programming World</div>
+            <h1 class="headlines">CSS</h1>
+                <h2 class="headlines"><span class="headspan">Work with position</span></h2>
+                <div class="text1">
+                    <h2 class="headdiv"><span class="spandiv">Блоки страницы</span></h2>
+                        <p>Свойство:<br/>
+                            <span class="spanp">display</span></p>
+                        <p>Значение:<br/>
+                            <span class="spanp">block</span><br/>
+                            <span class="spanp">inline</span><br/>
+                            <span class="spanp">none</span><br/></p>
+                        <p>Описание:</p>
+                            <p><div class="spanp1"><b>"display:inline"</b> только занимает достаточную ширину, но не использует переносы строк.<br/></div></p>
+                            <div class="spanp1"><b>"display:none"</b> прячет элемент так, что он не занимает места. Элемент будет спрятан, а страница будет отображена так, как будто элемента нет совсем. </div>
+
+                    <h2 class="headdiv"><span class="spandiv">Скрытие элемента</span></h2>
+                        <p>Свойство:<br/>
+                            <span class="spanp">visibility</span></p>
+                        <p>Значение:<br/>
+                            <span class="spanp">visible</span><br/>
+                            <span class="spanp">hidden</span><br/></p>
+                        <p>Описание:</p>
+                            <p><div class="spanp1"><b>"visibility"</b> определяет, будет элемент виден, или спрятан. <br/></div></p>
+                            <div class="spanp1"><b>"visibility:hidden"</b> прячет элемент, но он все равно будет занимать столько же места, сколько и раньше. Элемент будет спрятан, но он будет влиять на разметку</div>
+
+                    <h2 class="headdiv"><span class="spandiv">Позиционирование</span></h2>
+                        <p>Свойство:<br/>
+                            <span class="spanp">position</span></p>
+                        <p>Значение:<br/>
+                            <span class="spanp">absolute</span><br/>
+                            <span class="spanp">static</span><br/>
+                            <span class="spanp">fixed</span><br/>
+                            <span class="spanp">relative</span><br/>
+                            <span class="spanp">sticky</span><br/></p>
+                        <p>Описание:</p>
+                            <p><div class="spanp1"><b>"absolute"</b> указывает, что элемент абсолютно позиционирован, при этом другие элементы отображаются на веб-странице словно абсолютно позиционированного элемента и нет.<br/></div></p>
+                            <div class="spanp1"><b>"static"</b> Элементы отображаются как обычно.</div><br/>
+                            <div class="spanp1"><b>"fixed"</b> Элемент с фиксированной позицией размещается относительно окна браузера, и не будет двигаться, даже при прокрутке окна браузера. Позиция может быть определена с помощью свойств <B>top</B>, <B>right</B>, <B>bottom</B>, и <B>left</B>.</div><br/>
+                            <div class="spanp1"><b>"relative"</b> Положение элемента задается относительно его исходного места. Свойства <B>top</B>, <B>right</B>, <B>bottom</b>, и <b>left</B> могут использоваться для определения сдвига элемента.</div><br/>
+                        <p>Пример:</p>
+                            <p><div class="spanp col">Position: absolute</div></p>
+                                <div class="example_posit">
+                                   <div class="example_pos">
+                                        <div class="block_1">Static</div>
+                                        <div class="block_2ab">Absolute</div>
+                                        <div class="block_3">Static</div>
+                                    </div>
+                                </div>
+                            <p><div class="spanp col">Position: relative</div></p>
+                                <div class="example_posit">
+                                   <div class="example_pos">
+                                        <div class="block_1">Static</div>
+                                        <div class="block_2">Relative</div>
+                                        <div class="block_3">Static</div>
+                                    </div>
+                                </div>
+                             <p><div class="spanp col">Position: sticky</div></p>
+                                <div class="example_posit">
+                                   <div class="example_pos">
+                                        <div class="block_1">Static</div>
+                                        <div class="block_2st">Sticky</div>
+                                        <div class="block_3">Static</div>
+                                    </div>
+                                </div>
+
+                    <h2 class="headdiv"><span class="spandiv">Scroll блока</span></h2>
+                         <p>Свойство:<br/>
+                            <span class="spanp">overflow</span></p>
+                        <p>Значение:<br/>
+                            <span class="spanp">visible</span><br/>
+                            <span class="spanp">scroll</span><br/>
+                            <span class="spanp">hidden</span><br/>
+                            <span class="spanp">auto</span><br/></p>
+                        <p>Описание:</p>
+                           <p><div class="spanp1">Свойство <b>overflow</b> определяет поведение, которое возникает, когда содержимое элемента выходит за область элемента блока.</div></p>
+                           <p><div class="spanp1">Значение <b>scroll</b> всегда добавляет полосу прокрутки.</div></p>
+                           <p><div class="spanp1"><b>auto</b> - Полосы прокрутки добавятся только при необходимости (если поток будет переполнен).</div></p>
+                           <p><div class="spanp1"><b>hidden</b> - Отображается только область внутри элемента, остальное будет скрыто.</div></p>
+                        <p>Пример:</p>
+                            <div class="primer ofe">
+                               <p class="overflow_example"> This text is inside the div element, which has a blue
+                                    background color and is floated to the left. We set a specific
+                                    height and width for the div element, and as you can see,
+                                    the content cannot fit.</p></div>
+                    <h2 class="headdiv"><span class="spandiv">z-index</span></h2>
+                       <p>Свойство:<br/>
+                            <span class="spanp">z-index</span></p>
+                        <p>Описание:</p>
+                            <p><div class="spanp1">Свойство <b>z-index</b> определяет порядок накладывания элементов (какой из элементов будет расположен впереди, или сзади по отношению к другим).</div></p>
+                        <p>Пример:</p>
+                            <div class="primer posit">
+                                <div class="blue">Yellow</div>
+                                <div class="red">Green</div>
+                            </div>
+
+
+
+                </div>
+    </body>
+</html>

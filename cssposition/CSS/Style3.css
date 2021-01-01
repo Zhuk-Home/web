@@ -1,0 +1,213 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../image/2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:#464646;
+
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  body {
+
+  background-image: url(../image/2.jpg);
+
+  }
+
+}
+#box{
+    background-color: #13134f;
+    background-image: url(../image/3.jpg);
+    background-size:950px 300px;
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    color: #3EE3F2;
+    padding: 15px;
+    margin: 15px;
+    /*margin-bottom: 75;*/
+    border: 5px solid #000001;
+    border-radius: 15px;
+    opacity: 0.7;
+    box-shadow: 0 0 7px 7px #195168;
+    text-align: center;
+    /*height: 77px;*/ /*высота бокса*/
+    font-size: 55px;
+    font-weight: 800px;
+    font-family: cursive;
+    display: block;
+    position: static;
+    left: 100px;
+    /*text-shadow: rgba(0,0,255,1) 4px 3px 4px #36BED3;*/
+    text-shadow: -2px -3px 0.5em #0197FF;
+    /*position: static;
+    display: block;*/
+    max-width: 1000px;
+    /*position: relative;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.headlines{
+    text-align: center;
+    color: #00baff;
+    margin: 50px 0 75px 0;
+}
+h1{
+    font-size: 50px;
+}
+.headspan{
+    color: #ECE838;
+    border: 4px dashed #20bcd5;
+    padding: 10px 10px 10px 10px;
+    /*background-color: #347592;*/
+    border-radius: 7px;
+    /*font-size: 30px;*/
+}
+
+.headdiv {
+    color:#26e4d2;
+    text-align: center;
+}
+.spandiv{
+    /*border: 4px dashed #DFE426;*/
+    padding: 10px 10px 10px 10px;
+    background-color: #347592;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 10px;
+
+}
+.text1{
+    color: #17889B;
+    background-color: rgba(145,186,213);
+    padding: 15px;
+    border-radius: 10px;
+    /*opacity: 0.9;*/
+    font-size: 25px;
+    box-shadow:  0 0 5px 5px #91BAD5;
+    margin: 0 10px 0 10px;
+}
+.spanp{
+    font-weight: bold;
+    padding: 0 0 0 50px;
+}
+.spanp1{
+    padding: 0 0 0 50px;
+}
+.spanp2{
+    font-weight: bold;
+}
+.col{
+    color: #f4d716;
+}
+.primer{
+    color: #452197;
+    border: 4px dashed #F4CA16;
+    border-radius: 10px;
+    padding: 25px;
+    position: relative;
+}
+.line1{
+    border-bottom: 10px solid #F4CA16;
+    border-radius: 10px;
+    margin: 25px 0 25px 0;
+    /*box-shadow: 0 0 10px 1px #F4CA16;*/
+}
+/*.ops{
+    margin: 30px 0 30px 0;
+}*/
+.ofe{
+    height: 300px;
+}
+
+.overflow_example{
+    color: #000000;
+    width: 250px;
+    height: 250px;
+    background-color: #e9f03d;
+    float: left;
+    overflow: scroll;
+}
+.blue{
+    color: #000000;
+    background-color: #f8f819;
+    position: relative;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 120px;
+    z-index: 3;
+}
+.red{
+    color: #000000;
+    background-color: #10e351;
+    position: relative;
+    z-index: 4;
+    width: 120px;
+    height: 120px;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+.example_posit{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 700;
+    color: #010002;
+    border: 4px dashed #F4CA16;
+    border-radius: 10px;
+    padding: 25px;
+    /*position: relative;*/
+    text-align: center;
+}
+.example_pos{
+    /*background-color: #fff;*/
+    position: relative;
+    border: 5px solid #000;
+    height: 300px;
+    max-width: 830px;
+    margin: 0 auto;
+}
+.block_1{
+    background-color: #F4CA16;
+    padding: 15px;
+    position: static;
+}
+.block_2{
+    background-color: #9837fb;
+    padding: 15px;
+    position: relative;
+    top: 100px;
+    left: 30px;
+    max-width: 830px;
+}
+.block_3{
+    background-color: #1cff3f;
+    padding: 15px;
+    position: static;
+
+}
+
+.block_2ab{
+    background-color: #9837fb;
+    padding: 15px;
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    left: 30px;
+    max-width: 800px;
+}
+.block_2st{
+    background-color: #9837fb;
+    padding: 15px;
+    position: sticky;
+    top: 50%;
+    /*left: 30px;*/
+    max-width: 830px;
+}

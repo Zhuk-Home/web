@@ -1,0 +1,221 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../image/2.jpg);
+	background-position: center center;    
+	background-repeat: no-repeat;    
+	background-attachment: fixed;    
+	background-size: cover;    
+	background-color:#464646;
+	
+	padding: 10px;
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', sans-serif;
+	
+}
+
+@media only screen and (max-width: 767px) {
+
+  body {
+
+  background-image: url(../image/2.jpg);
+
+  }
+
+}
+#box{
+	/*background-color: #083C52;*/
+	background-image: url(../image/3.jpg);
+	background-size:950px 300px;
+	/*background-repeat: no-repeat;*/
+	/*background-position: center;*/
+	color: #3EE3F2;
+	padding: 15px;
+	margin: 15px;
+	/*margin-bottom: 75;*/
+	border: 5px solid #000001;
+	border-radius: 15px;
+	opacity: 0.7;
+	box-shadow: 0 0 7px 7px #195168;
+	text-align: center;
+	/*height: 77px;*/ /*высота бокса*/
+	font-size: 55px;
+	font-weight: 800px;
+	font-family: cursive;
+	display: block;
+	position: static;
+	left: 100px;
+	/*text-shadow: rgba(0,0,255,1) 4px 3px 4px #36BED3;*/
+	text-shadow: -2px -3px 0.5em #0197FF;
+	max-width: 1000px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.headlines{
+	text-align: center;
+	color: #00baff;
+	margin: 50px 0 75px 0;
+}
+h1{
+	font-size: 50px;
+}
+.headspan{
+	color: #ECE838;
+	border: 4px dashed #20bcd5;
+	padding: 10px 10px 10px 10px;
+	/*background-color: #347592;*/
+	border-radius: 7px;
+	/*font-size: 30px;*/
+}
+
+.headdiv {
+	color:#26e4d2;
+	text-align: center;
+	/*padding: 10px 10px 10px 10px;
+	background-color: #347592;
+	border-radius: 15px;
+	box-shadow: 0 0 5px 10px;*/
+	margin: 50px auto;
+	max-width: 75%;
+}
+.spandiv{
+	/*border: 4px dashed #DFE426;*/
+	padding: 10px 10px 10px 10px;
+	background-color: #347592;
+	border-radius: 15px;
+	box-shadow: 0 0 5px 10px;
+
+}
+.maxw{
+	max-width: 75%;
+}
+.text1{
+	color: #17889B;
+	background-color: #91BAD5;
+	padding: 15px;
+	border-radius: 10px;
+	/*opacity: 0.9;*/
+	font-size: 25px;
+	box-shadow:  0 0 5px 5px #91BAD5;
+	margin: 0 10px 0 10px;
+}
+.spanp{
+	font-weight: bold;
+	padding: 0 0 0 50px;
+}
+.spanp1{
+	padding: 0 0 0 50px;
+}
+.primer{
+	color: #452197;
+	border: 4px dashed #F4CA16;
+	border-radius: 10px;
+	padding: 25px;
+}
+.line1{
+	border-top: 10px solid #F4CA16;
+	border-radius: 10px;
+	margin: 25px 0 25px 0;
+	/*box-shadow: 0 0 10px 1px #F4CA16;*/
+}
+/*.ops{
+	margin: 30px 0 30px 0;
+}*/
+
+
+
+.ser{
+	margin: 10px;
+	padding: 10px;
+	border: 5px solid #FDFF2F;
+}
+p.none {border-style: none;}
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.hidden {border-style: hidden;}
+
+div.total{
+    border: 5px solid #452197;   
+    width: 190px;
+    height: 190px;
+}
+p.first {
+    border: 5px solid #452197;   
+    min-height: 100px;
+}
+p.second {
+    border: 5px solid #452197;   
+    max-width: 250px;
+}
+span.backc{
+	background-color: #28E3D2;
+	color:#060606;
+}
+p.fonimg{
+	background-image: url(../image/6.jpg);
+	color: #060606;
+	padding: 25px;
+}
+ol.lower-alpha {
+    list-style-type: lower-alpha;
+}
+ul.circle {
+    list-style-type: circle;
+}
+ul.square {
+    list-style-type: square;
+} 
+ul.tablecss {
+    list-style-image: url("http://www.sololearn.com/images/bullet.jpg");
+    list-style-position: inside;
+}
+
+
+
+.linklearn:link{
+	color: #F4CA16;
+}
+.linklearn:visited{
+	color: #69066E;
+}
+.linklearn:hover{
+	color: #fdff00;
+}
+.linklearn:active{
+	color:#b7b900;
+}
+
+span.testcursor{
+	cursor:no-drop;
+}
+.c1{
+	cursor:none;
+}
+.c2{
+	cursor:help;
+}
+.c3{
+	cursor:progress;
+}
+.c4{
+	cursor:wait;
+}
+.c5{
+	cursor:cell;
+}
+.c6{
+	cursor:alias;
+}
+.c7{
+	cursor:copy;
+}
+
+
+
